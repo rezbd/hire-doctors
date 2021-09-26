@@ -1,6 +1,6 @@
 [
     {
-        "key":"01",
+        "id":"01",
         "name":"Dr. Alex Miller",
         "age":"30",
         "specialization":"Dermatology",
@@ -10,7 +10,7 @@
         "img":"https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg"
     },
     {
-        "key":"02",
+        "id":"02",
         "name":"Dr. Emma Smith",
         "age":"31",
         "specialization":"Pediatrics",
@@ -20,7 +20,7 @@
         "img":"https://img.freepik.com/free-photo/beautiful-doctor-pointing-fingers_1258-16474.jpg"
     },
     {
-        "key":"03",
+        "id":"03",
         "name":"Dr. Carl Thomas",
         "age":"33",
         "specialization":"Urology",
@@ -30,7 +30,7 @@
         "img":"https://img.freepik.com/free-photo/smiling-handsome-young-black-male-doctor-medicine-concept_1262-12521.jpg"
     },
     {
-        "key":"04",
+        "id":"04",
         "name":"Dr. Dan McClain",
         "age":"41",
         "specialization":"Psychiatry",
@@ -40,7 +40,7 @@
         "img":"https://img.freepik.com/free-photo/doctor-with-his-arms-crossed-white-background_1368-5790.jpg"
     },
     {
-        "key":"05",
+        "id":"05",
         "name":"Dr. Olivia Jonson",
         "age":"51",
         "specialization":"Gynecology",
@@ -50,7 +50,7 @@
         "img":"https://img.freepik.com/free-photo/studio-image-confident-attractive-middle-aged-female-doctor-with-short-dyed-hairstyle-posing-isolated-wearing-white-coat-stethoscope_343059-2251.jpg"
     },
     {
-        "key":"06",
+        "id":"06",
         "name":"Dr. David Wilson",
         "age":"54",
         "specialization":"Neurology",
