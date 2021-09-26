@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Doctor from '../Doctor/Doctor';
+import './Clinic.css'
 
 const Clinic = () => {
     // state to loop all doctors

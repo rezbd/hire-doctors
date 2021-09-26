@@ -1,4 +1,5 @@
 import React from 'react';
+import './Doctor.css';
 
 const Doctor = (props) => {
 
