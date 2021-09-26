@@ -6,7 +6,7 @@
         "specialization":"Dermatology",
         "degree":"MBBS, FCPS",
         "country":"UK",
-        "salary":"11000",
+        "fee":"110",
         "img":"https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg"
     },
     {
@@ -16,7 +16,7 @@
         "specialization":"Pediatrics",
         "degree":"MBBS, FCPS, MD",
         "country":"UK",
-        "salary":"12000",
+        "fee":"130",
         "img":"https://img.freepik.com/free-photo/beautiful-doctor-pointing-fingers_1258-16474.jpg"
     },
     {
@@ -26,7 +26,7 @@
         "specialization":"Urology",
         "degree":"MBBS, FCPS, MD",
         "country":"UK",
-        "salary":"13000",
+        "fee":"140",
         "img":"https://img.freepik.com/free-photo/smiling-handsome-young-black-male-doctor-medicine-concept_1262-12521.jpg"
     },
     {
@@ -36,7 +36,7 @@
         "specialization":"Psychiatry",
         "degree":"MBBS, FCPS, PhD",
         "country":"UK",
-        "salary":"17000",
+        "fee":"200",
         "img":"https://img.freepik.com/free-photo/doctor-with-his-arms-crossed-white-background_1368-5790.jpg"
     },
     {
@@ -46,7 +46,7 @@
         "specialization":"Gynecology",
         "degree":"MBBS, FCPS, PhD",
         "country":"UK",
-        "salary":"25000",
+        "fee":"250",
         "img":"https://img.freepik.com/free-photo/studio-image-confident-attractive-middle-aged-female-doctor-with-short-dyed-hairstyle-posing-isolated-wearing-white-coat-stethoscope_343059-2251.jpg"
     },
     {
@@ -56,7 +56,7 @@
         "specialization":"Neurology",
         "degree":"MBBS, FCPS, PhD",
         "country":"UK",
-        "salary":"30000",
+        "fee":"330",
         "img":"https://img.freepik.com/free-photo/smiling-touching-arms-crossed-room-hospital_1134-799.jpg"
     }
 ]

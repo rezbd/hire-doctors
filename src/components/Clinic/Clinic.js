@@ -1,9 +1,20 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Doctor from '../Doctor/Doctor';
 
 const Clinic = () => {
-
+    // state to loop all doctors
     const [doctors, setDoctors] = useState([])
+
+    // state to put selected doctors in the cart
+    const [cart, setCart] = useState([])
+
+    // event handler to add doctors
+    const handleAddDoctor = (doctor) => {
+
+        const newCart = [...cart, doctor];
+        setCart(newCart)
+    }
 
     useEffect(() => {
         fetch("/doctorsData.json")
@@ -20,6 +31,7 @@ const Clinic = () => {
                         {
                             doctors.map(doctor => <Doctor
                                 doctor={doctor}
+                                handleAddDoctor={handleAddDoctor}
                             />)
                         }
 
@@ -27,7 +39,9 @@ const Clinic = () => {
                 </div>
                 <div className="col-md-3">
                     {/* cart section  */}
-                    <p>Dummy Cart Text</p>
+                    <Cart
+                        cart={cart}
+                    />
                 </div>
             </div>
         </div>
