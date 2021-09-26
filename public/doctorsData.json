@@ -2,61 +2,81 @@
     {
         "id":"01",
         "name":"Dr. Alex Miller",
-        "age":"30",
+        "age":"37",
         "specialization":"Dermatology",
-        "degree":"MBBS, FCPS",
+        "degree":"MBBS, FCPS, MD",
         "country":"UK",
-        "fee":"110",
-        "img":"https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg"
+        "salary":"22000",
+        "img":"https://img.freepik.com/free-photo/portrait-cheerful-smiling-young-doctor-with-stethoscope-neck-medical-coat_255757-1414.jpg"
     },
     {
         "id":"02",
         "name":"Dr. Emma Smith",
         "age":"31",
         "specialization":"Pediatrics",
-        "degree":"MBBS, FCPS, MD",
+        "degree":"MBBS, FCPS",
         "country":"UK",
-        "fee":"130",
+        "salary":"20000",
         "img":"https://img.freepik.com/free-photo/beautiful-doctor-pointing-fingers_1258-16474.jpg"
     },
     {
         "id":"03",
         "name":"Dr. Carl Thomas",
         "age":"33",
-        "specialization":"Urology",
+        "specialization":"Immunology",
         "degree":"MBBS, FCPS, MD",
         "country":"UK",
-        "fee":"140",
+        "salary":"21000",
         "img":"https://img.freepik.com/free-photo/smiling-handsome-young-black-male-doctor-medicine-concept_1262-12521.jpg"
     },
     {
         "id":"04",
         "name":"Dr. Dan McClain",
-        "age":"41",
+        "age":"47",
         "specialization":"Psychiatry",
         "degree":"MBBS, FCPS, PhD",
         "country":"UK",
-        "fee":"200",
-        "img":"https://img.freepik.com/free-photo/doctor-with-his-arms-crossed-white-background_1368-5790.jpg"
+        "salary":"31000",
+        "img":"https://img.freepik.com/free-photo/portrait-successful-mid-adult-doctor-with-crossed-arms_1262-12865.jpg"
     },
     {
         "id":"05",
         "name":"Dr. Olivia Jonson",
-        "age":"51",
+        "age":"53",
         "specialization":"Gynecology",
         "degree":"MBBS, FCPS, PhD",
         "country":"UK",
-        "fee":"250",
+        "salary":"38000",
         "img":"https://img.freepik.com/free-photo/studio-image-confident-attractive-middle-aged-female-doctor-with-short-dyed-hairstyle-posing-isolated-wearing-white-coat-stethoscope_343059-2251.jpg"
     },
     {
         "id":"06",
         "name":"Dr. David Wilson",
-        "age":"54",
+        "age":"57",
         "specialization":"Neurology",
         "degree":"MBBS, FCPS, PhD",
         "country":"UK",
-        "fee":"330",
-        "img":"https://img.freepik.com/free-photo/smiling-touching-arms-crossed-room-hospital_1134-799.jpg"
+        "salary":"45000",
+        "img":"https://image.freepik.com/free-photo/experienced-senior-male-doctor-looking-camera-confidently_118628-1515.jpg"
+    },
+    {
+        "id":"07",
+        "name":"Dr. Steve Jenkins",
+        "age":"56",
+        "specialization":"Cardiology",
+        "degree":"MBBS, FCPS, PhD",
+        "country":"UK",
+        "salary":"44000",
+        "img":"https://image.freepik.com/free-photo/senior-doctor-sitting-office_23-2147896126.jpg"
+    },
+    {
+        "id":"08",
+        "name":"Dr. Joe Armstrong",
+        "age":"48",
+        "specialization":"Oncology",
+        "degree":"MBBS, FCPS, PhD",
+        "country":"UK",
+        "salary":"36000",
+        "img":"https://img.freepik.com/free-photo/family-doctor-doctor-s-office_23-2148168436.jpg"
     }
 ]

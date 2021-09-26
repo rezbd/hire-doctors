@@ -3,7 +3,7 @@ import './Doctor.css';
 
 const Doctor = (props) => {
 
-    const { name, img, specialization, fee, age, country, degree } = props.doctor || {};
+    const { name, img, specialization, salary, age, country, degree } = props.doctor || {};
 
 
     return (
@@ -16,7 +16,7 @@ const Doctor = (props) => {
                     <p className="card-text">Degrees: {degree}</p>
                     <p className="card-text">Specialization: {specialization}</p>
                     <p className="card-text">Country: {country}</p>
-                    <p className="card-text">Fee per session: £{fee}</p>
+                    <p className="card-text">Salary: £{salary}</p>
                     <button onClick={() => props.handleAddDoctor(props.doctor)} className="btn btn-primary"><i className="fas fa-cart-plus"></i> Hire Doctor</button>
                 </div>
             </div>
