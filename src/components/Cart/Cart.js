@@ -8,8 +8,10 @@ const Cart = (props) => {
     const totalFee = cart.reduce(totalReducer, 0)
     return (
         <div>
-            <h5 className="text-start"><i className="fas fa-user-md"></i> Doctors Added: {cart.length}</h5>
-            <h5 className="text-start">Total Salary: £{totalFee}</h5>
+            <h2><i className="fas fa-user-md"></i></h2>
+            <h5>Doctors Added: {cart.length}</h5>
+            <h5>Total Salary: £{totalFee}</h5>
+            <br />
             <div>
                 <h4>Selected Doctors:</h4>
                 {
