@@ -9,7 +9,7 @@ const Cart = (props) => {
     return (
         <div>
             <h5 className="text-start"><i class="fas fa-user-md"></i> No. of Sessions: {cart.length}</h5>
-            <h5 className="text-start">Total Fee: {totalFee}</h5>
+            <h5 className="text-start">Total Fee: £{totalFee}</h5>
             <div>
                 <h4>Selected Doctors:</h4>
                 {
