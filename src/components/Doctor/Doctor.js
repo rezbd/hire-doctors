@@ -2,13 +2,12 @@ import React from 'react';
 import './Doctor.css';
 
 const Doctor = (props) => {
-
+    // destructuring data of doctors
     const { name, img, specialization, salary, age, country, degree } = props.doctor || {};
-
 
     return (
         <div className="col">
-            <div className="card p-4 bg-dark text-white">
+            <div className="card p-4">
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>

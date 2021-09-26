@@ -6,17 +6,14 @@ import './Clinic.css'
 const Clinic = () => {
     // state to loop all doctors
     const [doctors, setDoctors] = useState([])
-
     // state to put selected doctors in the cart
     const [cart, setCart] = useState([])
-
     // event handler to add doctors
     const handleAddDoctor = (doctor) => {
-
         const newCart = [...cart, doctor];
         setCart(newCart)
     }
-
+    // getting data of doctors
     useEffect(() => {
         fetch("/doctorsData.json")
             .then(res => res.json())
@@ -26,7 +23,7 @@ const Clinic = () => {
     return (
         <div>
             <div className="row container">
-                <div className="col-md-9">
+                <div className="col-12 col-md-9">
                     {/* doctors section */}
                     <div className="row row-cols-1 row-cols-md-2 g-4">
                         {
@@ -36,10 +33,9 @@ const Clinic = () => {
                                 handleAddDoctor={handleAddDoctor}
                             />)
                         }
-
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-12 col-md-3">
                     {/* cart section  */}
                     <Cart
                         cart={cart}
