@@ -1,7 +1,7 @@
-# Hire Doctors
+# Hire Specialist Doctors
 
-Hire doctors for a clinic. [Visit Website](https://google.com "Hire Doctors") **
+Hire highly experience specialist doctors for your clinic. [Visit Website](https://google.com "Hire Doctors")
 
-- This is a website to hire doctors for a small clinic.
+- This is a website to hire doctors for a private clinic.
 - User can see total salary of the doctors they want to hire.
 - User can see the list of doctors they are hiring.
